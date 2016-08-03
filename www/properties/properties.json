@@ -1,0 +1,9 @@
+{
+    "SETUP": {
+      "TIMEOUT": 10000,
+      "API_KEY": "rMxEn2tY26bAfYKriGYvUJ3Mxols2uuA"
+    },
+    "API": {
+      "SOME"                  : "http://url.cl"
+    }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="css/ionic.app.css" rel="stylesheet">
+
+    <!-- compiled css output -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="lib/d3/d3.js"></script>
+    <script src="lib/nvd3/build/nv.d3.min.js"></script>
+    <script src="lib/angular-nvd3/dist/angular-nvd3.js"></script>
+    <script src="lib/cryptojslib/rollups/aes.js"></script>
+
+    <script src="lib/lodash/dist/lodash.min.js"></script>
+    <script src="lib/angular-simple-logger/dist/angular-simple-logger.min.js"></script>
+    <script src="lib/moment/min/moment-with-locales.min.js"></script>
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+    <script src="cordova.js"></script>
+
+    <script src="lib/angular-resource/angular-resource.js"></script>
+    <script src="lib/angular-cookies/angular-cookies.js"></script>
+    <script src="lib/angular-animate/angular-animate.js"></script>
+    <script src="lib/angular-messages/angular-messages.min.js"></script>
+    <script src="lib/angular-i18n/angular-locale_es-cl.js"></script>
+    <script src="lib/angular-validation-match/dist/angular-validation-match.min.js"></script>
+    <script src="lib/angular-rut/dist/angular-rut.js"></script>
+    <script src="lib/angular-base64/angular-base64.min.js"></script>
+
+    <!-- your app's js -->
+    <!--<script src="js/app.js"></script>-->
+
+    <!-- Modules js -->
+    <script src="app/modules/CoreModule.js"></script>
+    <script src="app/modules/UtilsModule.js"></script>
+    <script src="app/negocio/CoreModule/SessionFactory.js"></script>
+    <script src="app/negocio/UtilsModule/UtilsFactory.js"></script>
+    <script src="app/negocio/UtilsModule/PopupFactory.js"></script>
+    <script src="app/negocio/UtilsModule/ToastFactory.js"></script>
+    <script src="app/negocio/UtilsModule/DebugFactory.js"></script>
+    <script src="app/negocio/UtilsModule/DataMapFactory.js"></script>
+    <script src="app/negocio/UtilsModule/CordovaHttp.js"></script>
+
+    <!-- Factories js -->
+    <script src="app/negocio/CoreModule/UsuarioFactory.js"></script>
+
+    <!-- APP js -->
+    <script src="app/global/POCApp.js"></script>
+    <script src="app/global/POCRun.js"></script>
+    <script src="app/global/POCConfig.js"></script>
+    <script src="app/global/POCRouting.js"></script>
+
+    <!-- Controllers js -->
+    <script src="app/presentacion/login/loginCtrl.js"></script>
+    <script src="app/presentacion/home/homeCtrl.js"></script>
+    <script src="app/presentacion/proyectos/proyectosCtrl.js"></script>
+    <script src="app/presentacion/proyectos/proyectoCtrl.js"></script>
+    <script src="app/presentacion/core/menu/menuCtrl.js"></script>
+
+    <!-- Providers js -->
+    <script src="app/integracion/ServiceProvider.js"></script>
+    <script src="app/integracion/UsuarioProvider.js"></script>
+
+
+  </head>
+
+  <body ng-app="teleton" ng-controller="menuCtrl">
+
+    <ion-nav-view scroll="true"></ion-nav-view>
+
+  </body>
+  <!--
+  <body ng-app="teleton">
+
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Ionic Blank Starter</h1>
+      </ion-header-bar>
+      <ion-content>
+      </ion-content>
+    </ion-pane>
+  </body>
+  -->
+</html>

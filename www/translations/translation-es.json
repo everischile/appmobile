@@ -1,0 +1,12 @@
+{
+  "VERSION_APP"     : "v0.1",
+
+  "MESSAGE_ERROR_GENERICO_SERVICES"       : "Error en nuestros servicios, intente más tarde.",
+  "MESSAGE_SSL_PINNING_ERROR_CERTIFICADO" : "Hemos detectado que el certificado del sitio no es de confianza. Por seguridad no podrá acceder a esta funcionalidad.",
+  "MESSAGE_CONNECTION_WITHOUT_INTERNET"   : "Has perdido tu conexión. Comprueba tu conexión a internet o red móvil"
+
+
+}
+
+
+
